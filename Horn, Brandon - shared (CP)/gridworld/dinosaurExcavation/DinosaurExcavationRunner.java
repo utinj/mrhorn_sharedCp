@@ -12,6 +12,7 @@ public class DinosaurExcavationRunner
     {
         MultiGrid<MultiActor> grid = getGridWithStuff(10, 10, 3);
         
+        
 //        Excavator ex = new Excavator(false);
 //        ex.putSelfInGrid(grid, new Location(0, 0));
         
