@@ -184,4 +184,26 @@ public class TestCountDiscs extends TestCase
         fiar.add(new Location(4, 3), new Disc(Color.RED));
         assertTrue(fiar.countDiscs(new Location(4, 3), Location.NORTHWEST) == 3);
     }
+
+    public void testStopsAtFirstEmpty()
+    {
+        fiar.add(new Location(5, 2), new Disc(Color.RED));
+        fiar.add(new Location(5, 3), new Disc(Color.RED));
+        fiar.add(new Location(5, 4), new Disc(Color.RED));
+        // leave (5, 5) empty
+        fiar.add(new Location(5, 6), new Disc(Color.RED));
+        
+        assertTrue(fiar.countDiscs(new Location(5, 2), Location.EAST) == 2);
+    }
+    
+    public void testStopsAtFirstWrongColor()
+    {
+        fiar.add(new Location(5, 2), new Disc(Color.RED));
+        fiar.add(new Location(5, 3), new Disc(Color.RED));
+        fiar.add(new Location(5, 4), new Disc(Color.RED));
+        fiar.add(new Location(5, 5), new Disc(Color.BLUE));
+        fiar.add(new Location(5, 6), new Disc(Color.RED));
+        
+        assertTrue(fiar.countDiscs(new Location(5, 2), Location.EAST) == 2);
+    }
 }
