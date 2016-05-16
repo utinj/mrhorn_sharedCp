@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="gridworld"/>
 	<classpathentry kind="src" path="sowj"/>
+	<classpathentry kind="src" path="projects"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="libs/gridworld.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
