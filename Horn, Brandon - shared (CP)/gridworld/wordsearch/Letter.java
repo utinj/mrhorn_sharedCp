@@ -1,4 +1,4 @@
-package wordSearch;
+package wordsearch;
 
 import java.awt.Color;
 

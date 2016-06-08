@@ -1,4 +1,4 @@
-package wordSearch;
+package wordsearch;
 
 import java.util.ArrayList;
 import java.util.Collections;
