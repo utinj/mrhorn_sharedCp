@@ -1,3 +1,4 @@
+package keyboardInputDemo;
 import java.util.Scanner;
 
 public class KeyboardInputDemo
