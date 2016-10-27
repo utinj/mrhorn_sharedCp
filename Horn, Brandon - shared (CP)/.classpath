@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="gridworld"/>
 	<classpathentry kind="src" path="sowj"/>
-	<classpathentry kind="src" path="projects"/>
 	<classpathentry kind="src" path="chapter02"/>
 	<classpathentry kind="src" path="chapter03"/>
+	<classpathentry kind="src" path="finch"/>
+	<classpathentry kind="src" path="projects"/>
+	<classpathentry kind="src" path="gridworld"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="libs/gridworld.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry kind="lib" path="libs/core.jar"/>
+	<classpathentry kind="lib" path="libs/finch.jar"/>
+	<classpathentry kind="lib" path="libs/jnaerator-0.9.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
