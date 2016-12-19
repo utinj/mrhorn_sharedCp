@@ -7,6 +7,7 @@
 	<classpathentry kind="src" path="projects"/>
 	<classpathentry kind="src" path="gridworld"/>
 	<classpathentry kind="src" path="gridWorld (old)"/>
+	<classpathentry kind="src" path="finchInGridWorld"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="libs/gridworld.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
