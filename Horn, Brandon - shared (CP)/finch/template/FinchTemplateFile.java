@@ -4,7 +4,7 @@ import edu.cmu.ri.createlab.terk.robot.finch.Finch;
 
 public class FinchTemplateFile
 {
-    public static void main(final String[] args)
+    public static void main(String[] args)
     {
         Finch myFinch = new Finch();
 
