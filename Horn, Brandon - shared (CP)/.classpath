@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="chapter02"/>
 	<classpathentry kind="src" path="chapter03"/>
 	<classpathentry kind="src" path="chapter05"/>
+	<classpathentry kind="src" path="chapter07"/>
 	<classpathentry kind="src" path="finch"/>
 	<classpathentry kind="src" path="projects"/>
 	<classpathentry kind="src" path="gridworld"/>
