@@ -1,7 +1,7 @@
-package keyboardInputDemo;
+package keyboardInput;
 import java.util.Scanner;
 
-public class KeyboardInputDemo
+public class KeyboardInputMixedTypes
 {
 
     public static void main(String[] args)
@@ -20,6 +20,8 @@ public class KeyboardInputDemo
         
         System.out.print("What is your quest?: ");
         String quest = fromKeyboard.nextLine();
+        
+        fromKeyboard.close();
         
         System.out.println("Name: " + name);
         System.out.println("Color: " + color);
