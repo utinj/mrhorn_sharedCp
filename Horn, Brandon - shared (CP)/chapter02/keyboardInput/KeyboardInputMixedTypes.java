@@ -14,7 +14,7 @@ public class KeyboardInputMixedTypes
         System.out.print("What is your favorite color?: ");
         String color = fromKeyboard.nextLine();
         
-        System.out.print("What is the airspeed velocity of an unladded swallow?: ");
+        System.out.print("What is the airspeed velocity of an unladden swallow?: ");
         double airspeedVelocity = fromKeyboard.nextDouble();
         fromKeyboard.nextLine();
         
