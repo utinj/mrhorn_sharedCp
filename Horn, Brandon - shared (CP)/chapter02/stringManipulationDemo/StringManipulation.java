@@ -9,6 +9,8 @@ public class StringManipulation
         
         System.out.println(name.indexOf('a'));
         System.out.println(name.indexOf('n'));
+        System.out.println(name.indexOf("and"));
+        System.out.println(name.indexOf('j'));
         
         System.out.println(name.substring(2, 3));
         System.out.println(name.substring(2, 5));
