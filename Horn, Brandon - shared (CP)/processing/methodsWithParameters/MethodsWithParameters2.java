@@ -4,9 +4,19 @@ import processing.core.PApplet;
 
 public class MethodsWithParameters2 extends PApplet
 {
-    public void setup()
+    public static void main(String[] args)
+    {
+        PApplet.main("methodsWithParameters.MethodsWithParameters2");
+    }
+    
+    public void settings()
     {
         size(1000, 750);
+    }
+    
+    public void setup()
+    {
+        
     }
     
     public void draw()

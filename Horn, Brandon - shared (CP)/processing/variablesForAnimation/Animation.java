@@ -8,9 +8,19 @@ public class Animation extends PApplet
     
     float diameter = 10;
     
-    public void setup()
+    public static void main(String[] args)
+    {
+        PApplet.main("variablesForAnimation.Animation");
+    }
+    
+    public void settings()
     {
         size(800, 250);
+    }
+    
+    public void setup()
+    {
+        
     }
     
     public void draw()

@@ -6,10 +6,18 @@ public class Timing2 extends PApplet
 {
     int nextTimeToDraw;
     
-    public void setup()
+    public static void main(String[] args)
+    {
+        PApplet.main("timingDemo.Timing2");
+    }
+    
+    public void settings()
     {
         size(1100, 900);
-        
+    }
+    
+    public void setup()
+    {
         nextTimeToDraw = 3000;
     }
     

@@ -10,6 +10,11 @@ public class RandomNumbers extends PApplet
      * is in the chapter04 source folder.
      */
     
+    public static void main(String[] args)
+    {
+        PApplet.main("randomNumbersProcessing.RandomNumbers");
+    }
+    
     public void setup()
     {
 //        float r = random(10.0f); // 0.0 <= r < 10.0
