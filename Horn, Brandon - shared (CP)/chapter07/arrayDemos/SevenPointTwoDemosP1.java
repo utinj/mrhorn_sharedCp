@@ -3,7 +3,7 @@ package arrayDemos;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SevenPointTwoDemos
+public class SevenPointTwoDemosP1
 {
 
     public static void main(String[] args)
