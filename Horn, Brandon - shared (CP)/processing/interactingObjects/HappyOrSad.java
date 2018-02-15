@@ -8,7 +8,7 @@ public class HappyOrSad extends PApplet
     
     public static void main(String[] args)
     {
-        PApplet.main("multipleClasses.ManyFacedClass");
+        PApplet.main("interactingObjects.HappyOrSad");
     }
     
     public void settings()
