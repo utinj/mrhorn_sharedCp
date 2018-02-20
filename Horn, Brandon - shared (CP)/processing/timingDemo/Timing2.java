@@ -1,33 +1,38 @@
-package methodsWithParameters;
+package timingDemo;
 
 import processing.core.PApplet;
 
-public class MethodsWithParameters2 extends PApplet
+public class Timing2 extends PApplet
 {
+    int nextTimeToDraw;
+    
     public static void main(String[] args)
     {
-        PApplet.main("methodsWithParameters.MethodsWithParameters2");
+        PApplet.main("timingDemo.Timing2");
     }
     
     public void settings()
     {
-        size(1000, 750);
+        size(1100, 900);
     }
     
     public void setup()
     {
-        
+        nextTimeToDraw = 3000;
     }
     
     public void draw()
     {
-        background(0);
-        
-        drawSmileyFace(250, 250);
-        drawSmileyFace(750, 250);
-        drawSmileyFace(500, 550);
+        if(millis() >= nextTimeToDraw)
+        {
+            int x = (int) random(100f, 1000f); // 100 <= x < 1000
+            int y = (int) random(100f, 800f);
+            drawSmileyFace(x, y);
+            
+            nextTimeToDraw = millis() + 1000;
+        }
     }
-
+    
     public void drawSmileyFace(int x, int y) // x and y are center of large ellipse
     {
         fill(255, 255, 0);

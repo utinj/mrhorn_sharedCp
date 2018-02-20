@@ -4,9 +4,19 @@ import processing.core.PApplet;
 
 public class Methods2 extends PApplet
 {
-    public void setup()
+    public static void main(String[] args)
+    {
+        PApplet.main("writingMethods.Methods2");
+    }
+    
+    public void settings()
     {
         size(500, 500);
+    }
+    
+    public void setup()
+    {
+        
     }
     
     public void draw()
