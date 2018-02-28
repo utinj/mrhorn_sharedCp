@@ -19,5 +19,8 @@
 	<classpathentry kind="lib" path="libs/core.jar"/>
 	<classpathentry kind="lib" path="libs/finch.jar"/>
 	<classpathentry kind="lib" path="libs/jnaerator-0.9.5.jar"/>
+	<classpathentry kind="lib" path="libs/gstreamer-java.jar"/>
+	<classpathentry kind="lib" path="libs/jna.jar"/>
+	<classpathentry kind="lib" path="libs/video.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
