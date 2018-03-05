@@ -13,7 +13,7 @@ public class Grayscale extends PApplet
     
     public static void main(String[] args)
     {
-        PApplet.main("videoManipulation.Grayscale");
+        PApplet.main("camera.Grayscale");
     }
     
     public void settings()
