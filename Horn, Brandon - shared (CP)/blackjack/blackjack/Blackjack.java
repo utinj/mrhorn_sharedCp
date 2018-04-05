@@ -49,7 +49,7 @@ public class Blackjack
     }
     
     /**
-     * Returns the player's bet for the specified hand
+     * Returns the player's bet
      * @return the player's bet for the hand
      */
     public double getPlayersBet()
