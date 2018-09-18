@@ -27,6 +27,11 @@ public class VForAnimation extends PApplet
         
         smileyX += 2;
         
+        drawSmileyFace();
+    }
+    
+    public void drawSmileyFace()
+    {
         fill(255, 255, 0);
         ellipse(smileyX, 300, 300, 300);
         
