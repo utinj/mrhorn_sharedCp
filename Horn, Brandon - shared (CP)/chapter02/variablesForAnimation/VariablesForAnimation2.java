@@ -28,6 +28,11 @@ public class VariablesForAnimation2 extends PApplet
         
         smileyX += 2;
         
+        drawSmileyFace();
+    }
+    
+    public void drawSmileyFace()
+    {
         fill(255, 0, 255);
         ellipse(smileyX, 250, 300, 300);
         
