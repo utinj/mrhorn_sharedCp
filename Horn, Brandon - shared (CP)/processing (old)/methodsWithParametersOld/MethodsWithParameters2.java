@@ -1,4 +1,4 @@
-package methodsWithParameters;
+package methodsWithParametersOld;
 
 import processing.core.PApplet;
 
@@ -6,7 +6,7 @@ public class MethodsWithParameters2 extends PApplet
 {
     public static void main(String[] args)
     {
-        PApplet.main("methodsWithParameters.MethodsWithParameters2");
+        PApplet.main("methodsWithParametersOld.MethodsWithParameters2");
     }
     
     public void settings()
