@@ -12,7 +12,7 @@
 	<classpathentry kind="src" path="projects"/>
 	<classpathentry kind="src" path="gridworld"/>
 	<classpathentry kind="src" path="gridWorld (old)"/>
-	<classpathentry kind="src" path="processing"/>
+	<classpathentry kind="src" path="processing (old)"/>
 	<classpathentry kind="src" path="blackjack"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="libs/gridworld.jar"/>
