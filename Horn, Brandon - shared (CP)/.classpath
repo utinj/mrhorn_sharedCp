@@ -6,15 +6,15 @@
 	<classpathentry kind="src" path="chapter04"/>
 	<classpathentry kind="src" path="chapter05"/>
 	<classpathentry kind="src" path="chapter07"/>
+	<classpathentry kind="src" path="processing"/>
+	<classpathentry kind="src" path="processing (old)"/>
 	<classpathentry kind="src" path="finch"/>
 	<classpathentry kind="src" path="finchInProcessing"/>
 	<classpathentry kind="src" path="finchInGridWorld"/>
 	<classpathentry kind="src" path="projects"/>
 	<classpathentry kind="src" path="gridworld"/>
 	<classpathentry kind="src" path="gridWorld (old)"/>
-	<classpathentry kind="src" path="processing (old)"/>
 	<classpathentry kind="src" path="blackjack"/>
-	<classpathentry kind="src" path="processing"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="libs/gridworld.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
