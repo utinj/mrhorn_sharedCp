@@ -16,5 +16,14 @@ public class StringManipulation
         System.out.println(name.substring(2, 5));
         System.out.println(name.substring(4, name.length()));
         System.out.println(name.substring(4));
+        
+        char letter = name.charAt(3);
+        System.out.println(letter);
+        
+        int len = name.length();
+        System.out.println(len);
+        
+        name = name.toUpperCase();
+        System.out.println(name);
     }
 }
