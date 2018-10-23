@@ -11,6 +11,7 @@ public class InputValidation
         
         System.out.print("Enter a number (-50 to 150): ");
         int number = fromKeyboard.nextInt();
+        fromKeyboard.nextLine();
         
         while(number < -50 || number > 150)
         {
@@ -18,6 +19,7 @@ public class InputValidation
             
             System.out.print("Enter a number (-50 to 150): ");
             number = fromKeyboard.nextInt();
+            fromKeyboard.nextLine();
         }
         
         fromKeyboard.close();
