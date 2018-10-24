@@ -17,8 +17,6 @@ public class LoopsWithStrings
         // print each character in a string on its own line
         for(int index = 0; index < str.length(); index++)
             System.out.println(str.substring(index, index + 1));
-        
-        
     }
 
 }
