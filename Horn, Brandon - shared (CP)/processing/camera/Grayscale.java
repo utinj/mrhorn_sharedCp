@@ -50,7 +50,7 @@ public class Grayscale extends PApplet
     {
         cam.read();
         
-        editedFrame = createImage(width, height, RGB);
+        editedFrame = createImage(cam.width, cam.height, RGB);
         editedFrame.loadPixels();
         cam.loadPixels();
         
