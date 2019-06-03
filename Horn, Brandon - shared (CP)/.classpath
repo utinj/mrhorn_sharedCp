@@ -24,5 +24,8 @@
 	<classpathentry kind="lib" path="libs/gstreamer-java.jar"/>
 	<classpathentry kind="lib" path="libs/jna.jar"/>
 	<classpathentry kind="lib" path="libs/video.jar"/>
+	<classpathentry kind="lib" path="libs/javamp3-1.0.4.jar"/>
+	<classpathentry kind="lib" path="libs/jsyn-20171016.jar"/>
+	<classpathentry kind="lib" path="libs/sound.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
